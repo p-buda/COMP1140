@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Table Practice</title>
+		<style>
+			table, th, td {
+				border: 1px solid purple;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1>Minerals</h1>
+		
+		<h2>Basic table</h2>
+		<table>
+			<tr>
+				<td>Crystal Family</td>
+				<td>Common Examples</td>
+				<td>Location</td>
+			</tr>
+			<tr>
+				<td>Isometric</td>
+				<td>Pyrite</td>
+				<td rowspan="2">Asia</td>
+			</tr>
+			<tr>
+				<td>Tetragonal</td>
+				<td>Zircon</td>
+			</tr>
+		</table>
+		
+		<h2>Basic table with headings and caption</h2>
+		<table>
+			<caption>Crystals and Minerals</caption>
+			<tr>
+				<th>Crystal Family</th>
+				<th>Common Examples</th>
+				<th>Location</th>
+			</tr>
+			<tr>
+				<td>Isometric</td>
+				<td>Pyrite</td>
+				<td>US</td>
+			</tr>
+			<tr>
+				<td>Tetragonal</td>
+				<td>Zircon</td>
+				<td>Asia</td>
+			</tr>
+		</table>
+		
+		<h2>Table with headings, caption, thead, tbody, tfoot sections</h2>
+		<table>
+			<caption>Crystals and Minerals</caption>
+			<thead>
+				<tr>
+					<th>Crystal Family</th>
+					<th>Common Examples</th>
+					<th>Location</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Isometric</td>
+					<td>Pyrite</td>
+					<td>US</td>
+				</tr>
+				<tr>
+					<td>Tetragonal</td>
+					<td>Zircon</td>
+					<td>Asia</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3">Total: 2</td>
+				</tr>
+			</tfoot>
+		</table>
+		
+		
+		<h2>Rowspan example table</h2>
+		<table>
+			<caption>Show Times</caption>
+			<tr>
+				<th>Time</th>
+				<th>Room A</th>
+				<th>Room B</th>
+				<th>Room C</th>
+			</tr>
+			<tr>
+				<td>5-7 PM</td>
+				<td>The Minerals</td>
+				<td rowspan="2">The Rocks!</td>
+				<td>Rock History</td>
+			</tr>
+			<tr>
+				<td>8-10 PM</td>
+				<td>Rock Adventures</td>
+				<td>Rocks of MN</td>
+			</tr>
+		</table>
+		
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
