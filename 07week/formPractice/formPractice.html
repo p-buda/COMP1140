@@ -8,9 +8,8 @@
 	<body>
 		<h1>Form Practice</h1>
 		
-		<form name="" action="https://example.org" method="GET">
+		<form name="event_registration" action="https://example.org" method="GET">
 			<h2>Event Registration</h2>
-			<section>
 				<fieldset>
 					<legend>Provide contact information</legend>
 					<p><label for="user_name">Name: </label><input type="text" id="user_name" name="user_name"></p>
@@ -36,9 +35,9 @@
 					</p>
 					<p>
 						I would like to attend sessions on:
-						<input type="checkbox" id="thu" name="day1" value="thursday"><label for="thu">Thursday</label>
-						<input type="checkbox" id="fri" name="day2" value="friday"><label for="fri">Friday</label>
-						<input type="checkbox" id="sat" name="day3" value="saturday"><label for="sat">Saturday</label>
+						<input type="checkbox" id="thu" name="day" value="thursday"><label for="thu">Thursday</label>
+						<input type="checkbox" id="fri" name="day" value="friday"><label for="fri">Friday</label>
+						<input type="checkbox" id="sat" name="day" value="saturday"><label for="sat">Saturday</label>
 					</p>
 				</fieldset>
 				<fieldset>
@@ -49,7 +48,6 @@
 					<button type="submit" id="submit_form">Submit Form</button>
 					<button type="reset" id="reset_form">Reset Form</button>
 				</p>
-			</section>
 		</form>
 	</body>
 </html>
