@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Form Practice</title>
+	</head>
+	
+	<body>
+		<h1>Form Practice</h1>
+		
+		<form name="" action="https://example.org" method="GET">
+			<h2>Event Registration</h2>
+			<section>
+				<fieldset>
+					<legend>Provide contact information</legend>
+					<p><label for="user_name">Name: </label><input type="text" id="user_name" name="user_name"></p>
+					<p><label for="user_email">Email: </label><input type="text" id="user_email" name="user_email"></p>
+					<p><label for="user_password">Password: </label><input type="password" id="user_password" name="user_password"></p>
+				</fieldset>
+				<fieldset>
+					<legend>Tell us about yourself</legend>
+					<p><label for="dob">I was born on: </label><input type="date" id="dob" name="date_of_birth"></p>
+					<p>
+						<label for="occupation">I am a:</label>
+						<select id="occupation" name="occupation">
+						  <option value="">Choose one</option>
+						  <option value="student">Student</option>
+						  <option value="staff">Staff</option>
+						  <option value="faculty">Faculty</option>
+						</select>
+					</p>
+					<p>
+						My primary campus is: 
+						<input type="radio" id="fb" name="campus" value="faribault"><label for="fb"> Faribault</label>
+						<input type="radio" id="nmkto" name="campus" value="nmkto"><label for="nmkto"> North Mankato</label>
+					</p>
+					<p>
+						I would like to attend sessions on:
+						<input type="checkbox" id="thu" name="day1" value="thursday"><label for="thu">Thursday</label>
+						<input type="checkbox" id="fri" name="day2" value="friday"><label for="fri">Friday</label>
+						<input type="checkbox" id="sat" name="day3" value="saturday"><label for="sat">Saturday</label>
+					</p>
+				</fieldset>
+				<fieldset>
+					<legend>Leave any concerns and notes for us</legend>
+					<textarea name="comment" rows="4" cols="45" placeholder="Leave us a comment."></textarea>
+				</fieldset>
+				<p>
+					<button type="submit" id="submit_form">Submit Form</button>
+					<button type="reset" id="reset_form">Reset Form</button>
+				</p>
+			</section>
+		</form>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
